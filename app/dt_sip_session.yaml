@@ -1,0 +1,180 @@
+---
+SIPSessionSM:
+  nodes:
+  - name: idle
+    id: 1
+    type: initial
+    transitions:
+    - targetNode: 2
+      appliedOnEvent : 1033
+      setEventId : 0
+      type : regular
+      reference : NOAP
+    - targetNode: 12
+      appliedOnEvent : 3
+      setEventId : 0
+      type : regular
+      reference : SIPS
+  - name: l2
+    id: 2
+    type: state
+    transitions:
+    - targetNode : 5
+      appliedOnEvent : 3
+      setEventId : 0
+      type : regular
+      reference : SIPS
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: l5
+    id: 5
+    type: process
+    transitions:
+    - targetNode : 6
+      appliedOnEvent : 3076
+      setEventId : 0
+      type : regular
+      reference : S100
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP   
+  - name: l6
+    id: 6
+    type: process
+    transitions:
+    - targetNode : 7
+      appliedOnEvent : 7
+      setEventId : 0
+      type : regular
+      reference :  SEND
+  - name: l7
+    id: 7
+    type: process
+    transitions:
+    - targetNode : 8
+      appliedOnEvent : 8
+      setEventId : 0
+      type : regular
+      reference : SINV
+  - name: l8
+    id: 8
+    type: process
+    transitions:
+    - targetNode : 4
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : SEND 
+  - name: l4
+    id: 4
+    type: state
+    transitions:
+    - targetNode : 9
+      appliedOnEvent : 3
+      setEventId : 0
+      type : regular
+      reference : SIPS 
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: l9
+    id: 9
+    type: process
+    transitions:
+    - targetNode : 10
+      appliedOnEvent : 3077
+      setEventId : 0
+      type : regular
+      reference : SINV 
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: l10
+    id: 10
+    type: process
+    transitions:
+    - targetNode : 11
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : SEND 
+  - name: l11
+    id: 11
+    type: process
+    transitions:
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: l12
+    id: 12
+    type: process
+    transitions:
+    - targetNode : 13
+      appliedOnEvent : 3076
+      setEventId : 0
+      type : regular
+      reference : S100 
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: l13
+    id: 13
+    type: process
+    transitions:
+    - targetNode : 3
+      appliedOnEvent : 3073
+      setEventId : 0
+      type : regular
+      reference : SEND
+  - name: l3
+    id: 3
+    type: state
+    transitions:
+    - targetNode : 8
+      appliedOnEvent : 1033
+      setEventId : 0
+      type : regular
+      reference : NOAP 
+    - targetNode : 0
+      appliedOnEvent : 0
+      setEventId : 0
+      type : regular
+      reference : DROP
+  - name: done
+    id: 0
+    type: final
+    transitions:
+    - targetNode : 0
+      appliedOnEvent : 0 
+      setEventId : 0
+      type : regular
+      reference : DROP
+  events:
+  - name: omega
+    id: 0
+  - name: receipt
+    id: 1033
+  - name: originate
+    id: 1025
+  - name: sip
+    id: 3
+  - name: 100
+    id: 3073
+  - name: invite
+    id: 3076
+  - name: cancel
+    id: 3077
+...

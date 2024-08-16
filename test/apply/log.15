@@ -1,0 +1,328 @@
+
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_fsm_apply",
+    "timestamp": "2021-07-23T04:27:02.767692268Z",
+    "event_id": 5,
+    "state_id": 2,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "APPL",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_service_selected",
+    "timestamp": "2021-07-23T04:27:02.767660626Z",
+    "detected_proto": "serv",
+    "assigned_event_id": 5,
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.767624992Z",
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_routed",
+    "timestamp": "2021-07-23T04:27:02.767590095Z",
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.767551015Z",
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "server",
+    "proto": "dtmp",
+    "command": "report_packet_sent",
+    "timestamp": "2021-07-23T04:27:02.767508688Z",
+    "packet": {
+        "to": "client",
+        "from": "server",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "answer": 42
+        }
+    }
+}
+{
+    "reporter": "server",
+    "proto": "dtmp",
+    "command": "report_server_requested",
+    "timestamp": "2021-07-23T04:27:02.767462680Z",
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "server",
+    "proto": "dtmp",
+    "command": "report_service_selected",
+    "timestamp": "2021-07-23T04:27:02.767425832Z",
+    "detected_proto": "serv",
+    "assigned_event_id": 5,
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "server",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.767361781Z",
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_routed",
+    "timestamp": "2021-07-23T04:27:02.767316801Z",
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.767283096Z",
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_packet_sent",
+    "timestamp": "2021-07-23T04:27:02.767246118Z",
+    "packet": {
+        "proto": "ip",
+        "from": "client",
+        "to": "server_q",
+        "to_report": true,
+        "data": {
+            "proto": "serv",
+            "command": "request"
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_packet_originated",
+    "timestamp": "2021-07-23T04:27:02.767191316Z",
+    "incoming_packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_dtmp_command_selected",
+    "timestamp": "2021-07-23T04:27:02.767143694Z",
+    "detected_command": "originate_packet",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_service_selected",
+    "timestamp": "2021-07-23T04:27:02.767088923Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}
+{
+    "reporter": "client",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.767002895Z",
+    "packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_routed",
+    "timestamp": "2021-07-23T04:27:02.766949729Z",
+    "packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}
+{
+    "reporter": "router",
+    "proto": "dtmp",
+    "command": "report_packet_received",
+    "timestamp": "2021-07-23T04:27:02.766795928Z",
+    "packet": {
+        "proto": "ip",
+        "from": "controller",
+        "to": "client_q",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate_packet",
+            "to": "server_q",
+            "data": {
+                "proto": "serv",
+                "command": "request"
+            }
+        }
+    }
+}

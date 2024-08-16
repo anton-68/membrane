@@ -1,0 +1,4206 @@
+
+{
+    "proto": "ip",
+    "from": "Console",
+    "to": "TV_Set_2",
+    "to_report": true,
+    "data": {
+        "proto": "dtmp",
+        "command": "originate",
+        "to": "Camera_2",
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "/twister.sdp HTTP/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+
+[1]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.533422953Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[2]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.533614809Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[3]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.533691555Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[4]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1025,
+    "timestamp": "2021-08-01T02:46:35.533761086Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[5]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:35.533826317Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[6]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.533866893Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[7]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.534011103Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[8]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.534082327Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[9]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet originated",
+    "timestamp": "2021-08-01T02:46:35.534149378Z",
+    "incoming packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    },
+    "originated packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[10]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:35.534261627Z",
+    "packet to send": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[11]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:35.534316703Z",
+    "event_id": 1025,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[12]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.534321615Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[13]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.534375301Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[14]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_1#Camera_1#rtsp",
+    "eventId": 4,
+    "timestamp": "2021-08-01T02:46:35.534455802Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[15]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule requested by router",
+    "timestamp": "2021-08-01T02:46:35.534550117Z",
+    "processed packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    },
+    "request packet": {}
+}
+
+[16]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow requested from user",
+    "timestamp": "2021-08-01T02:46:35.534638941Z",
+    "processed packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    },
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[17]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:35.534796468Z",
+    "packet to send": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[18]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:35.534869931Z",
+    "event_id": 2051,
+    "state_id": 5,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "RouterSM",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[19]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.534980979Z",
+    "received packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[20]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.535054952Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[21]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.535134287Z",
+    "detected_command": "request_flow",
+    "assigned_event_id": 1029,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[22]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1029,
+    "timestamp": "2021-08-01T02:46:35.535215298Z",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[23]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:35.535293474Z",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[24]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.535323468Z",
+    "received packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[25]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.535389301Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[26]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.535443015Z",
+    "detected_command": "request_flow",
+    "assigned_event_id": 1029,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[27]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "request_flow command received",
+    "timestamp": "2021-08-01T02:46:35.535494193Z",
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    },
+    "response packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[28]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:35.535632091Z",
+    "packet to send": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[29]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule sent after request flow command processing",
+    "timestamp": "2021-08-01T02:46:35.535690271Z",
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    },
+    "response packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[30]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.535694956Z",
+    "received packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[31]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.535778382Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[32]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:35.535792212Z",
+    "packet to send": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[33]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:35.535843259Z",
+    "event_id": 1029,
+    "state_id": 10,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    }
+}
+
+[34]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.535869470Z",
+    "detected_command": "set_flow",
+    "assigned_event_id": 1028,
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[35]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_1#Camera_1#rtsp",
+    "eventId": 1028,
+    "timestamp": "2021-08-01T02:46:35.535963575Z",
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[36]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow was set up",
+    "timestamp": "2021-08-01T02:46:35.536060021Z",
+    "request packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[37]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:35.536163178Z",
+    "event_id": 2048,
+    "state_id": 5,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "RouterSM",
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_1",
+                "to": "Camera_1",
+                "proto": "rtsp",
+                "key": "TV_Set_1#Camera_1#rtsp"
+            }
+        }
+    }
+}
+
+[38]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.536281926Z",
+    "received packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[39]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.536361955Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[40]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.536447040Z",
+    "detected_command": "set_rule",
+    "assigned_event_id": 1030,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[41]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "Smart_TV_Set#CCTVCam#rtsp",
+    "eventId": 1030,
+    "timestamp": "2021-08-01T02:46:35.536531773Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[42]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:35.536621002Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[43]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:35.536655432Z",
+    "received packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[44]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:35.536728472Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[45]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:35.536782815Z",
+    "detected_command": "set_rule",
+    "assigned_event_id": 1030,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[46]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "Smart_TV_Set#CCTVCam#rtsp",
+    "eventId": 1030,
+    "timestamp": "2021-08-01T02:46:35.536836731Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[47]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule was set up",
+    "timestamp": "2021-08-01T02:46:35.536894235Z",
+    "request packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[48]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:35.536941583Z",
+    "event_id": 2048,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ControllerSM",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_1#Camera_1#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[49]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:36.533516732Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[50]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:36.533596065Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[51]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:36.533664855Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[52]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1025,
+    "timestamp": "2021-08-01T02:46:36.533729861Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[53]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:36.533793264Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[54]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:36.533829997Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[55]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:36.533904998Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[56]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:36.533972412Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[57]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet originated",
+    "timestamp": "2021-08-01T02:46:36.534038021Z",
+    "incoming packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    },
+    "originated packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[58]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:36.534152816Z",
+    "packet to send": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[59]
+{
+    "reporter": "TV_Set_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:36.534210673Z",
+    "event_id": 1025,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_1",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_1",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_1 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[60]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:36.534214448Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[61]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:36.534266195Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[62]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_1#Camera_1#rtsp",
+    "eventId": 4,
+    "timestamp": "2021-08-01T02:46:36.534321070Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[63]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow checked",
+    "timestamp": "2021-08-01T02:46:36.534378060Z",
+    "flow decision": "allowed",
+    "key": "TV_Set_1#Camera_1#rtsp",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[64]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:36.534433552Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[65]
+{
+    "reporter": "Camera_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:36.534464048Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[66]
+{
+    "reporter": "Camera_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:36.534541008Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[67]
+{
+    "reporter": "Camera_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:36.534598221Z",
+    "event_id": 4,
+    "state_id": 2,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ServerSM",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_1",
+        "to": "Camera_1",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_1 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[68]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.533638992Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[69]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.533717663Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[70]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.533785649Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[71]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1025,
+    "timestamp": "2021-08-01T02:46:37.533851476Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[72]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:37.533915556Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[73]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.533949498Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[74]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.534043421Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[75]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.534113442Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[76]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet originated",
+    "timestamp": "2021-08-01T02:46:37.534178259Z",
+    "incoming packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    },
+    "originated packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[77]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:37.534288490Z",
+    "packet to send": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[78]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:37.534345066Z",
+    "event_id": 1025,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "no"
+                }
+            }
+        }
+    }
+}
+
+[79]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.534348915Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[80]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.534403457Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[81]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_2#Camera_2#rtsp",
+    "eventId": 4,
+    "timestamp": "2021-08-01T02:46:37.534458530Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[82]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule requested by router",
+    "timestamp": "2021-08-01T02:46:37.534516623Z",
+    "processed packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    },
+    "request packet": {}
+}
+
+[83]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow requested from user",
+    "timestamp": "2021-08-01T02:46:37.534570985Z",
+    "processed packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    },
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[84]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:37.534669559Z",
+    "packet to send": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[85]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:37.534715393Z",
+    "event_id": 2051,
+    "state_id": 5,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "RouterSM",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "no"
+            }
+        }
+    }
+}
+
+[86]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.534783686Z",
+    "received packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[87]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.534824355Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[88]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.534873167Z",
+    "detected_command": "request_flow",
+    "assigned_event_id": 1029,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[89]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1029,
+    "timestamp": "2021-08-01T02:46:37.534923473Z",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[90]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:37.534972765Z",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[91]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.535001745Z",
+    "received packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[92]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.535063332Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[93]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.535116709Z",
+    "detected_command": "request_flow",
+    "assigned_event_id": 1029,
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[94]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "request_flow command received",
+    "timestamp": "2021-08-01T02:46:37.535168021Z",
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    },
+    "response packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[95]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:37.535303504Z",
+    "packet to send": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[96]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule sent after request flow command processing",
+    "timestamp": "2021-08-01T02:46:37.535361765Z",
+    "request packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    },
+    "response packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[97]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.535365447Z",
+    "received packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[98]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.535421245Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[99]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:37.535464085Z",
+    "packet to send": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[100]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.535477807Z",
+    "detected_command": "set_flow",
+    "assigned_event_id": 1028,
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[101]
+{
+    "reporter": "SmartPhone_1",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:37.535511328Z",
+    "event_id": 1029,
+    "state_id": 10,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "to": "SmartPhone_1",
+        "from": "Router",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "request_flow",
+            "data": {
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set"
+            }
+        }
+    }
+}
+
+[102]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_2#Camera_2#rtsp",
+    "eventId": 1028,
+    "timestamp": "2021-08-01T02:46:37.535534458Z",
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[103]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow was set up",
+    "timestamp": "2021-08-01T02:46:37.535596714Z",
+    "request packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[104]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:37.535649258Z",
+    "event_id": 2048,
+    "state_id": 5,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "RouterSM",
+    "packet": {
+        "to": "Router",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_flow",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "from": "TV_Set_2",
+                "to": "Camera_2",
+                "proto": "rtsp",
+                "key": "TV_Set_2#Camera_2#rtsp"
+            }
+        }
+    }
+}
+
+[105]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.535717891Z",
+    "received packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[106]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.535763920Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[107]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.535815524Z",
+    "detected_command": "set_rule",
+    "assigned_event_id": 1030,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[108]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "Smart_TV_Set#CCTVCam#rtsp",
+    "eventId": 1030,
+    "timestamp": "2021-08-01T02:46:37.535863901Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[109]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:37.535918593Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[110]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:37.535946751Z",
+    "received packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[111]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:37.536004669Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[112]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:37.536059119Z",
+    "detected_command": "set_rule",
+    "assigned_event_id": 1030,
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[113]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "Smart_TV_Set#CCTVCam#rtsp",
+    "eventId": 1030,
+    "timestamp": "2021-08-01T02:46:37.536115386Z",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[114]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "rule was set up",
+    "timestamp": "2021-08-01T02:46:37.536171095Z",
+    "request packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[115]
+{
+    "reporter": "Controller",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:37.536217566Z",
+    "event_id": 2048,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ControllerSM",
+    "packet": {
+        "to": "Controller",
+        "from": "SmartPhone_1",
+        "proto": "ip",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "set_rule",
+            "data": {
+                "decision": "allowed",
+                "to_role": "CCTVCam",
+                "from_role": "Smart_TV_Set",
+                "key": "TV_Set_2#Camera_2#rtsp",
+                "proto": "rtsp"
+            }
+        }
+    }
+}
+
+[116]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:38.533744162Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[117]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:38.533824016Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[118]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:38.533892136Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[119]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "undefined",
+    "eventId": 1025,
+    "timestamp": "2021-08-01T02:46:38.533961825Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[120]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:38.534025710Z",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[121]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:38.534076159Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[122]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:38.534152169Z",
+    "detected_proto": "dtmp",
+    "assigned_event_id": 2,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[123]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "dtmp command selected",
+    "timestamp": "2021-08-01T02:46:38.534220131Z",
+    "detected_command": "originate",
+    "assigned_event_id": 1025,
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[124]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet originated",
+    "timestamp": "2021-08-01T02:46:38.534285679Z",
+    "incoming packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    },
+    "originated packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[125]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet sent",
+    "timestamp": "2021-08-01T02:46:38.534397252Z",
+    "packet to send": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[126]
+{
+    "reporter": "TV_Set_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:38.534455098Z",
+    "event_id": 1025,
+    "state_id": 6,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ClientSM",
+    "packet": {
+        "proto": "ip",
+        "from": "Console",
+        "to": "TV_Set_2",
+        "to_report": true,
+        "data": {
+            "proto": "dtmp",
+            "command": "originate",
+            "to": "Camera_2",
+            "data": {
+                "proto": "rtsp",
+                "data": {
+                    "Request-Line": {
+                        "Method": "GET",
+                        "Request-URI": "\/twister.sdp HTTP\/1.1"
+                    },
+                    "Host": "Camera_2 addr",
+                    "Accept": "application\/sdp",
+                    "Retry": "yes"
+                }
+            }
+        }
+    }
+}
+
+[127]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:38.534458881Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[128]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:38.534508628Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[129]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow filter key prepared",
+    "key": "TV_Set_2#Camera_2#rtsp",
+    "eventId": 4,
+    "timestamp": "2021-08-01T02:46:38.534559765Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[130]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "flow checked",
+    "timestamp": "2021-08-01T02:46:38.534616447Z",
+    "flow decision": "allowed",
+    "key": "TV_Set_2#Camera_2#rtsp",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[131]
+{
+    "reporter": "Router",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet routed",
+    "status": "success",
+    "timestamp": "2021-08-01T02:46:38.534672761Z",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[132]
+{
+    "reporter": "Camera_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "packet received",
+    "timestamp": "2021-08-01T02:46:38.534702659Z",
+    "received packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[133]
+{
+    "reporter": "Camera_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "service selected",
+    "timestamp": "2021-08-01T02:46:38.534776946Z",
+    "detected_proto": "rtsp",
+    "assigned_event_id": 4,
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+[134]
+{
+    "reporter": "Camera_2",
+    "proto": "dtmp",
+    "command": "report",
+    "event": "closing event processing",
+    "timestamp": "2021-08-01T02:46:38.534833028Z",
+    "event_id": 4,
+    "state_id": 2,
+    "node_type": "Process",
+    "transition_type": "Regular",
+    "transition_ref": "DROP",
+    "target_node": 0,
+    "fsm_name": "ServerSM",
+    "packet": {
+        "proto": "ip",
+        "from": "TV_Set_2",
+        "to": "Camera_2",
+        "to_report": true,
+        "data": {
+            "proto": "rtsp",
+            "data": {
+                "Request-Line": {
+                    "Method": "GET",
+                    "Request-URI": "\/twister.sdp HTTP\/1.1"
+                },
+                "Host": "Camera_2 addr",
+                "Accept": "application\/sdp",
+                "Retry": "yes"
+            }
+        }
+    }
+}
+
+Done.
+

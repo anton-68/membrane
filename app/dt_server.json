@@ -1,0 +1,168 @@
+{
+   "ServerSM": {
+      "nodes": [
+         {
+            "name": "idle",
+            "id": 1,
+            "type": "initial",
+            "transitions": [
+               {
+                  "targetNode": 4,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "RECV"
+               }
+            ]
+         },
+         {
+            "name": "selector",
+            "id": 2,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 3,
+                  "appliedOnEvent": 2,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DTMP"
+               },
+               {
+                  "targetNode": 6,
+                  "appliedOnEvent": 5,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SERV"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "command",
+            "id": 3,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 5,
+                  "appliedOnEvent": 1025,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "ORIG"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "link4",
+            "id": 4,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 2,
+                  "appliedOnEvent": 1,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SSEL"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "link5",
+            "id": 5,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 7,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SEND"
+               }
+            ]
+         },
+         {
+            "name": "link6",
+            "id": 6,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 7,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SEND"
+               }
+            ]
+         },
+         {
+            "name": "link7",
+            "id": 7,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "done",
+            "id": 0,
+            "type": "final",
+            "transitions": [
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         }
+      ],
+      "events": [
+         {
+            "name": "omega",
+            "id": 0
+         },
+         {
+            "name": "ip",
+            "id": 1
+         },
+         {
+            "name": "dtmp",
+            "id": 2
+         },
+         {
+            "name": "serv",
+            "id": 5
+         },
+         {
+            "name": "originate",
+            "id": 1025
+         }
+      ]
+   }
+}

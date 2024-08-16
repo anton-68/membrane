@@ -1,0 +1,158 @@
+{
+   "SIPServerSM": {
+      "nodes": [
+         {
+            "name": "idle",
+            "id": 1,
+            "type": "initial",
+            "transitions": [
+               {
+                  "targetNode": 2,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "RECV"
+               }
+            ]
+         },
+         {
+            "name": "l2",
+            "id": 2,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 3,
+                  "appliedOnEvent": 1,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SSEL"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "l3",
+            "id": 3,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 4,
+                  "appliedOnEvent": 2,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DTMP"
+               },
+               {
+                  "targetNode": 5,
+                  "appliedOnEvent": 3,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SETK"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "l4",
+            "id": 4,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 5,
+                  "appliedOnEvent": 1033,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "SETK"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "l5",
+            "id": 5,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 6,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "hierarchical",
+                  "reference": "SIPSessionArray"
+               }
+            ]
+         },
+         {
+            "name": "l6",
+            "id": 6,
+            "type": "process",
+            "transitions": [
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "done",
+            "id": 0,
+            "type": "final",
+            "transitions": [
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         }
+      ],
+      "events": [
+         {
+            "name": "omega",
+            "id": 0
+         },
+         {
+            "name": "ip",
+            "id": 1
+         },
+         {
+            "name": "dtmp",
+            "id": 2
+         },
+         {
+            "name": "sip",
+            "id": 3
+         },
+         {
+            "name": "originate",
+            "id": 1025
+         },
+         {
+            "name": "receipt",
+            "id": 1033
+         }
+      ]
+   }
+}

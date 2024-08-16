@@ -1,0 +1,98 @@
+
+System registry created...
+QUEUE_2 registered at 0x1069490
+LOGGER_QUEUE registered at 0x1069640
+LOGGER_QUEUE as registered 0x1069758
+APP1 registered at 0x409cc7
+APP1 as registered 0x10697a8
+APP2 registered at 0x409d38
+APP3 registered at 0x409da9
+NOAP registered at 0x409e1a
+FSM file 1 red...
+
+==> tostr(fsm_jsmn, t) = sm0
+==> tostr(fsm_jsmn, t) = nodes
+==> tostr(fsm_jsmn, t) = name
+==> tostr(fsm_jsmn, t) = name
+==> tostr(fsm_jsmn, t) = idle
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = 1
+==> tostr(fsm_jsmn, t) = type
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = targetNode
+==> tostr(fsm_jsmn, t) = targetNode
+==> tostr(fsm_jsmn, t) = 2
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = 1
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = 0
+==> tostr(fsm_jsmn, t) = type
+==> tostr(fsm_jsmn, t) = regular
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = APP1
+JSMN token type : 3
+==> tostr(fsm_jsmn, t) = targetNode
+JSMN token : targetNodeFSM sm0 compiled:
+FSM sm0 registered at (nil)
+DEPOT_1 registered at 0x1069970
+FSM file 2 red...
+
+==> tostr(fsm_jsmn, t) = sm1
+==> tostr(fsm_jsmn, t) = nodes
+==> tostr(fsm_jsmn, t) = name
+==> tostr(fsm_jsmn, t) = name
+==> tostr(fsm_jsmn, t) = idle
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = id
+==> tostr(fsm_jsmn, t) = 1
+==> tostr(fsm_jsmn, t) = type
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = initial
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = transitions
+==> tostr(fsm_jsmn, t) = targetNode
+==> tostr(fsm_jsmn, t) = targetNode
+==> tostr(fsm_jsmn, t) = 2
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = appliedOnEvent
+==> tostr(fsm_jsmn, t) = 1
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = setEventId
+==> tostr(fsm_jsmn, t) = 0
+==> tostr(fsm_jsmn, t) = type
+==> tostr(fsm_jsmn, t) = regular
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = reference
+==> tostr(fsm_jsmn, t) = NOAP
+JSMN token type : 3
+==> tostr(fsm_jsmn, t) = targetNode
+JSMN token : targetNodeFSM sm1 compiled:
+FSM sm1 registered at (nil)
+FSM sm1 as registered 0x106fd98

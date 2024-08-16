@@ -1,0 +1,38 @@
+{
+  proto = ip
+  to = <receiver queue>
+  from = <senser tx>
+  to_report = true
+  data = {
+    proto = sip
+    data = {
+      message = [sip headeres]
+    } 
+  }
+}
+
+
+    
+{ 
+  proto = ip
+  to = <collector queue>
+  from = <router>
+  to_report = false
+  data = {
+    proto = dtmp
+    command = report_message
+    data = {
+      proto = ip
+      to = <receiver queue>
+      from = <senser tx>
+      to_report = true
+      data = {
+        proto = sip
+        data = {
+          message = [sip headeres]
+        } 
+      }
+    }
+  }
+}
+

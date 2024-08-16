@@ -1,0 +1,134 @@
+
+System registry created...
+QUEUE_2 registered at 0xbea490
+LOGGER_QUEUE registered at 0xbea640
+LOGGER_QUEUE as registered 0xbea758
+APP1 registered at 0x409d62
+APP1 as registered 0xbea7a8
+APP2 registered at 0x409dd3
+APP3 registered at 0x409e44
+NOAP registered at 0x409eb5
+FSM file 1 red...
+FSM sm0 compiled:
+SM Name: sm0
+The number of nodes: 2
+The nodes:
+  Node name: idle
+  Node Id: 1
+  Node type: Initial
+  The number of transitions: 2
+  The transitions:
+    Transition # 0
+    Transition type: Hierarchical
+    Trigger event Id: 1
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea7a8
+    Transition # 1
+    Transition type: Hierarchical
+    Trigger event Id: 0
+    Target node Id: 1
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+  Node name: stop
+  Node Id: 2
+  Node type: Final
+  The number of transitions: 1
+  The transitions:
+    Transition # 0
+    Transition type: Asynchronous
+    Trigger event Id: 0
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+The events:
+  Event name: omega
+  Event Id: 0
+  Event name: do
+  Event Id: 1
+FSM sm0 registered at 0xbea8e0
+DEPOT_1 registered at 0xbeafd0
+FSM file 2 red...
+FSM sm1 compiled:
+SM Name: sm1
+The number of nodes: 4
+The nodes:
+  Node name: idle
+  Node Id: 1
+  Node type: Initial
+  The number of transitions: 3
+  The transitions:
+    Transition # 0
+    Transition type: Hierarchical
+    Trigger event Id: 1
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+    Transition # 1
+    Transition type: Hierarchical
+    Trigger event Id: 3
+    Target node Id: 3
+    (Re)set event Id: 0
+    Transition reference: 0xbf0a38
+    Transition # 2
+    Transition type: Hierarchical
+    Trigger event Id: 0
+    Target node Id: 1
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+  Node name: cleanup
+  Node Id: 2
+  Node type: State
+  The number of transitions: 2
+  The transitions:
+    Transition # 0
+    Transition type: Cascade
+    Trigger event Id: 2
+    Target node Id: 4
+    (Re)set event Id: 0
+    Transition reference: 0xbea5f8
+    Transition # 1
+    Transition type: Cascade
+    Trigger event Id: 0
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+  Node name: working
+  Node Id: 3
+  Node type: State
+  The number of transitions: 2
+  The transitions:
+    Transition # 0
+    Transition type: Cascade
+    Trigger event Id: 0
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+    Transition # 1
+    Transition type: Cascade
+    Trigger event Id: 0
+    Target node Id: 2
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+  Node name: done
+  Node Id: 4
+  Node type: Final
+  The number of transitions: 1
+  The transitions:
+    Transition # 0
+    Transition type: Asynchronous
+    Trigger event Id: 0
+    Target node Id: 4
+    (Re)set event Id: 0
+    Transition reference: 0xbea898
+The events:
+  Event name: omega
+  Event Id: 0
+  Event name: shutdown
+  Event Id: 1
+  Event name: done
+  Event Id: 2
+  Event name: start
+  Event Id: 3
+FSM sm1 registered at 0xbf0a80
+FSM sm1 as registered 0xbf1848

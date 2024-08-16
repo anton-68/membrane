@@ -1,0 +1,96 @@
+{
+   "RuleEngineSM": {
+      "nodes": [
+         {
+            "name": "idle",
+            "id": 1,
+            "type": "initial",
+            "transitions": [
+               {
+                  "targetNode": 2,
+                  "appliedOnEvent": 1030,
+                  "setEventId": 2048,
+                  "type": "regular",
+                  "reference": "ADDR"
+               },
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 1031,
+                  "setEventId": 2051,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         },
+         {
+            "name": "active",
+            "id": 2,
+            "type": "state",
+            "transitions": [
+               {
+                  "targetNode": 2,
+                  "appliedOnEvent": 1031,
+                  "setEventId": 1032,
+                  "type": "regular",
+                  "reference": "GETR"
+               },
+               {
+                  "targetNode": 2,
+                  "appliedOnEvent": 1030,
+                  "setEventId": 2048,
+                  "type": "regular",
+                  "reference": "ADDR"
+               }
+            ]
+         },
+         {
+            "name": "done",
+            "id": 0,
+            "type": "final",
+            "transitions": [
+               {
+                  "targetNode": 0,
+                  "appliedOnEvent": 0,
+                  "setEventId": 0,
+                  "type": "regular",
+                  "reference": "DROP"
+               }
+            ]
+         }
+      ],
+      "events": [
+         {
+            "name": "omega",
+            "id": 0
+         },
+         {
+            "name": "set_rule",
+            "id": 1030
+         },
+         {
+            "name": "get_rule",
+            "id": 1031
+         },
+         {
+            "name": "deploy_rule",
+            "id": 1032
+         },
+         {
+            "name": "pending",
+            "id": 1034
+         },
+         {
+            "name": "ok",
+            "id": 2048
+         },
+         {
+            "name": "unknown",
+            "id": 2051
+         },
+         {
+            "name": "skip",
+            "id": 2052
+         }
+      ]
+   }
+}
